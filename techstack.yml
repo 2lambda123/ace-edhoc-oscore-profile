@@ -1,0 +1,44 @@
+repo_name: 2lambda123/ace-edhoc-oscore-profile
+report_id: d8da0813f92ff9c32ec0c13545e6744c
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T07:56:04+00:00'
+requested_by: rikard-sics
+provider: github
+branch: main
+detected_tools_count: 3
+tools:
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/ace-edhoc-oscore-profile/blob/main/.circleci/config.yml
+  detection_source: ".circleci/config.yml"
+  last_updated_by: Göran Selander
+  last_updated_on: 2022-04-05 08:11:04.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/ace-edhoc-oscore-profile
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/ace-edhoc-oscore-profile/blob/main/.github/workflows/archive.yml
+  detection_source: ".github/workflows/archive.yml"
+  last_updated_by: Göran Selander
+  last_updated_on: 2022-04-05 08:11:04.000000000 Z
